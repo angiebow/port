@@ -30,15 +30,15 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-{/*             <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
-              alt="Ricardo portrait"
+             <Image
+              src="my-pic.jpg"
+              alt="Pelangi Masita"
               width="192"
               height="192"
               quality="95"
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            /> */}
+            />
           </motion.div>
 
           <motion.span
@@ -62,10 +62,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Angie.</span> a{" "}
+        <span className="font-bold">Hello, I'm Pelangi Masita.</span> A{" "}
         <span className="font-bold">2nd</span> year{" "}
         <span className="font-bold">informatics engineering student.</span> I'm really
-        into <span className="italic">artificial intelligence</span>. and{" "}
+        into <span className="italic">artificial intelligence</span> and{" "}
         <span className="underline">astrophysics</span>.
       </motion.h1>
 
@@ -85,7 +85,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          Contact me here{"http://wa.me/+6281337504401"}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -94,7 +94,7 @@ export default function Intro() {
           href="/CV.pdf"
           download
         >
-          Download CV{" "}
+          Download CV{""}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
