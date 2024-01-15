@@ -12,6 +12,7 @@ export default function Home() {
       <Intro />
       <SectionDivider />
       <About />
+      <Award />
       <Projects />
       <Skills />
       <Experience />
