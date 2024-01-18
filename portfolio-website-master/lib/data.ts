@@ -64,6 +64,13 @@ export const projectsData = [
     tags: ["Javascript", "Google Map API", "Firebase", "HTML", "CSS", "Flask", "Bootstrap", "Raspberry Pi", "GPS Module"],
     imageUrl: corpcommentImg,
   },
+  {
+    title: "Playourette",
+    description:
+      "I worked as a web developer and raspberry pi programmer on this project for 1.5 months.",
+    tags: ["Javascript", "Google Map API", "Firebase", "HTML", "CSS", "Flask", "Bootstrap", "Raspberry Pi", "GPS Module"],
+    imageUrl: corpcommentImg,
+  },
 ] as const;
 
 export const skillsData = [
