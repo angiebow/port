@@ -42,6 +42,14 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2022",
   },
+  {
+    title: "Graduated Apple Developer Academy Foundation Program",
+    location: "Apple Developer Academy @UC",
+    description:
+      "I graduated after 1 month of studying and collaborating. I immediately got the experience to create an impactful iOS mobile app.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022",
+  },
 ] as const;
 
 export const projectsData = [
